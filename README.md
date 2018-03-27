@@ -1,2 +1,2 @@
 # OpenCVonARMv7
-OpenCVインストール用debパッケージ保管庫
+RaspberryPi3へのOpenCV導入用debパッケージ保管庫
