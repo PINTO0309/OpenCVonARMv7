@@ -1,0 +1,2 @@
+# OpenCVonARMv7
+OpenCVインストール用debパッケージ保管庫
