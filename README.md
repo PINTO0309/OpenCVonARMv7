@@ -18,7 +18,7 @@ cmake -D CMAKE_BUILD_TYPE=Release \
 ```
 $ cd ~
 $ sudo apt autoremove libopencv3
-$ wget https://github.com/PINTO0309/files/raw/master/opencv-rpi/libopencv3_3.4.2-20180709.1_armhf.deb
+$ wget https://github.com/PINTO0309/OpenCVonARMv7/raw/master/libopencv3_3.4.2-20180709.1_armhf.deb
 $ sudo apt install -y ./libopencv3_3.4.2-20180709.1_armhf.deb
 $ sudo ldconfig
 ```
