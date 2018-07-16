@@ -1,7 +1,7 @@
 # OpenCVonARMv7
-RaspberryPi3へのOpenCV導入用debパッケージ保管庫
+Deb package for introducing OpenCV to RaspberryPi3
 
-Build Parameter
+## Build Parameter
 ```
 cmake -D CMAKE_BUILD_TYPE=Release \
       -D CMAKE_INSTALL_PREFIX=/usr/local \
@@ -12,4 +12,13 @@ cmake -D CMAKE_BUILD_TYPE=Release \
       -D WITH_TBB=OFF \
       -D INSTALL_PYTHON_EXAMPLES=ON \
       -D BUILD_EXAMPLES=ON ..
+```
+
+## Install
+```
+$ cd ~
+$ sudo apt autoremove libopencv3
+$ wget https://github.com/PINTO0309/files/raw/master/opencv-rpi/libopencv3_3.4.2-20180709.1_armhf.deb
+$ sudo apt install -y ./libopencv3_3.4.2-20180709.1_armhf.deb
+$ sudo ldconfig
 ```
