@@ -1,5 +1,5 @@
 # OpenCVonARMv7
-Deb package for introducing OpenCV to RaspberryPi3
+Deb package for introducing OpenCV to RaspberryPi3.
 
 ## Build Parameter
 ```
