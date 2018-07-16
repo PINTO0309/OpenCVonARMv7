@@ -5,7 +5,7 @@ Deb package for introducing OpenCV to RaspberryPi3.
 ```
 cmake -D CMAKE_BUILD_TYPE=Release \
       -D CMAKE_INSTALL_PREFIX=/usr/local \
-      -D OPENCV_EXTRA_MODULES_PATH=/home/pi/opencv_contrib-3.4.1/modules \
+      -D OPENCV_EXTRA_MODULES_PATH=/home/pi/opencv_contrib-3.4.2/modules \
       -D ENABLE_VFPV3=ON \
       -D ENABLE_NEON=ON \
       -D BUILD_TESTS=OFF \
